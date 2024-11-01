@@ -74,16 +74,14 @@ int main() {
     }
 
     // You can choose to use either selectionSort , bubbleSort or insertionSort
-    //selectionSort(myArray, size); // Uncomment this line if you want to use Bubble Sort instead
+    selectionSort(myArray, size); // Uncomment this line if you want to use Bubble Sort instead
     //bubbleSort(myArray, size); // Uncomment this line if you want to use Bubble Sort instead
     //insertionSort(myArray, size); //Uncomment this line if you want to use insertion Sort instead
+    
     /*
      note!
      Sorting Algorithms (selectionSort , bubbleSort , insertionSort) Time Complexity ======> O(n^2)
     */
-
-    //=========================================================
-
 
     
     printArray(myArray, size);
